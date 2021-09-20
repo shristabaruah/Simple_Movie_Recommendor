@@ -3,28 +3,47 @@ import "./styles.css";
 
 var osDB = {
   scifi: [
-    { property: "Inception", rating: "4.5/5" },
-    { property: "Blade Runner", rating: "4.5/5" }
+    {
+      property: "Inception",
+      rating: "Director: Christopher Nolan || 4.5/5",
+      description:
+        "Description:A troubled thief who extracts secrets from people's dreams takes one last job: leading a dangerous mission to plant an idea in a target's subconscious.    "
+    },
+    {
+      property: "Blade Runner",
+      rating:
+        "Director: Luke Scott, Shinichirō Watanabe, Denis Villeneuve, Ridley Scott || 4.5/5",
+      description:
+        " Description: Harrison Ford stars in this fascinating, dark vision of the near future as a policeman who tracks engineered humans--a Blade Runner."
+    }
   ],
 
   RomCom: [
     {
       property: "Proposal",
-      rating: "3.5/5"
+      rating: " Director:  Anne Fletcher || 3.5/5",
+      description:
+        "Description: The Proposal is a movie about a couple who start out hating each other and end up liking each other."
     },
     {
       property: "Blended",
-      rating: "4.5/5"
+      rating: " Director:Frank Coraci || 4.5/5",
+      description:
+        "Description: After a bad blind date, a man and woman find themselves stuck together at a resort for families, where their attraction grows as their respective kids benefit from the burgeoning relationship."
     }
   ],
   Action: [
     {
       property: "Avenger",
-      rating: "5/5"
+      rating: "Director: Joss Whedon || 5/5",
+      description:
+        "Description: Earth's mightiest heroes must come together and learn to fight as a team if they are going to stop the mischievous Loki and his alien army from enslaving humanity."
     },
     {
       property: "Bad boys",
-      rating: "3/5"
+      rating: "Director:Michael Bay || 3/5",
+      description:
+        "Description: Two hip detectives protect a witness to a murder while investigating a case of stolen heroin from the evidence storage room from their police precinct."
     }
   ]
 };
@@ -73,7 +92,8 @@ export default function App() {
             >
               {" "}
               <div style={{ fontSize: "larger" }}> {mov.property} </div>
-              <div style={{ fontSize: "smaller" }}> {mov.rating} </div>
+              <div style={{ fontSize: "larger" }}> {mov.rating} </div>
+              <div style={{ fontSize: "smaller" }}>{mov.description}</div>
             </li>
           ))}
         </ul>
