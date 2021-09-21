@@ -2,4 +2,4 @@
 Some good recommendations for diffrent genre movies. Made using ReactJS with love<br>
 Created with CodeSandbox
 
-CLICK-> [Movie Recommendor](https://81z6l.csb.app/)
+CLICK-> [Movie Recommendor](https://i1gmi.csb.app/)
