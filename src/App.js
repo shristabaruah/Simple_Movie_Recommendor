@@ -15,6 +15,12 @@ var osDB = {
         "Director: Luke Scott, Shinichirō Watanabe, Denis Villeneuve, Ridley Scott || 4.5/5",
       description:
         " Description: Harrison Ford stars in this fascinating, dark vision of the near future as a policeman who tracks engineered humans--a Blade Runner."
+    },
+    {
+      property: "Snowpiercer",
+      rating: "Bong Joon-ho || 3.9/5",
+      description:
+        "Survivors of Earth's second Ice Age live out their days on a luxury train that ploughs through snow and ice. The train's poorest residents, who live in the squalid caboose, plan to improve their lot by taking over the engine room."
     }
   ],
 
@@ -30,6 +36,12 @@ var osDB = {
       rating: " Director:Frank Coraci || 4.5/5",
       description:
         "Description: After a bad blind date, a man and woman find themselves stuck together at a resort for families, where their attraction grows as their respective kids benefit from the burgeoning relationship."
+    },
+    {
+      property: "My Best Friend's Wedding",
+      rating: "P. J. Hogan || 3.7/5",
+      description:
+        "ulianne is shocked when she learns that her best friend Michael is soon getting married. Overcome with a surge of mixed emotions, she makes up her mind to sabotage his wedding and make him her own."
     }
   ],
   Action: [
@@ -44,6 +56,12 @@ var osDB = {
       rating: "Director:Michael Bay || 3/5",
       description:
         "Description: Two hip detectives protect a witness to a murder while investigating a case of stolen heroin from the evidence storage room from their police precinct."
+    },
+    {
+      property: "Black Panther",
+      rating: " Ryan Coogler || 4.6/5",
+      description:
+        "After his father's death, T'Challa returns home to Wakanda to inherit his throne. However, a powerful enemy related to his family threatens to attack his nation."
     }
   ]
 };
